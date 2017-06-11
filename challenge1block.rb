@@ -127,7 +127,7 @@ end
 
 ### demonstration ###
 
-matrix = random_binary_matrix 5, 8, 0.1
+matrix = random_binary_matrix 5, 8, 0.1 # number_of_rows, number_of_columns, probability_to_set_an_entry_to_zero
 
 print_matrix matrix
 puts
