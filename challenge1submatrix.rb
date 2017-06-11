@@ -154,7 +154,7 @@ end
 #matrix = [[1,1,0,1], [1,1,0,1], [0,1,0,1]]
 #matrix = [[1, 1, 0, 1], [1, 1, 1, 1], [1, 0, 1, 0], [1, 1, 0, 1]]
 
-matrix = random_binary_matrix 10, 10, 0.5
+matrix = random_binary_matrix 10, 10, 0.5 # number_of_rows, number_of_columns, probability_to_set_an_entry_to_zero
 
 print_matrix matrix
 puts
